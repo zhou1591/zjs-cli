@@ -19,7 +19,7 @@ module.exports = {
     },
     // 压缩js
     mode: 'production',
-    // 插件 html的  暂时用不上
+    // 插件 html的  暂时用不上 
     // ...plugins,
     // css loader  暂时用不上
     // ...loader,
