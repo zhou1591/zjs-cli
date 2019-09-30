@@ -13,6 +13,7 @@
     "main": "git add . && git commit -m 'npm' && git push && npm run build && npm publish",
     "isDist": "if exist dist ( npm run del )",
     "del": " rmdir dist /s /q",
+    "build": "webpack --config build/webpack.config.js",
     "over": "npm run isDist && npm run main"
   },
   "dependencies": {
