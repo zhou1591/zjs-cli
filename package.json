@@ -1,0 +1,30 @@
+{
+  "name": "zjs-cli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "main": "zjs-cli.js",
+  "keywords": [
+    "zjs",
+    "周靖松",
+    "zjs-cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "git add . && git commit -m 'npm' && git push && npm run build && npm publish",
+    "isDist": "if exist dist ( npm run del )",
+    "del": " rmdir dist /s /q",
+    "over": "npm run isDist && npm run main"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.2"
+  }, 
+  "bin": {
+    "zjs-cli": "main.js"
+  },
+  "author": "周靖松",
+  "license": "ISC"
+}
