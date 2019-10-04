@@ -20,8 +20,7 @@
     "ora": "^4.0.2"
   },
   "bin": {
-    "zjs-cli": "main.js",
-    "zjs-a": "main.js"
+    "zjs-cli": "main.js"
   },
   "author": "周靖松",
   "license": "ISC"
