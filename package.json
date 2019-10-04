@@ -1,6 +1,6 @@
 {
   "name": "zjs-template-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "脚手架,做着玩得  现在就一个vue得，没时间搞，选啥都是vue  o(*￣▽￣*)ブ",
   "main": "zjs-cli.js",
   "keywords": [
