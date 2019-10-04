@@ -1,7 +1,7 @@
 {
-  "name": "zjs-cli",
-  "version": "1.0.1",
-  "description": "脚手架",
+  "name": "zjs-template-cli",
+  "version": "1.0.4",
+  "description": "脚手架,做着玩得  现在就一个vue得，没时间搞，选啥都是vue  o(*￣▽￣*)ブ",
   "main": "zjs-cli.js",
   "keywords": [
     "zjs",
@@ -10,11 +10,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "main": "git add . && git commit -m 'npm' && git push && npm run build && npm publish",
-    "isDist": "if exist dist ( npm run del )",
-    "del": " rmdir dist /s /q",
-    "build": "webpack --config build/webpack.config.js",
-    "over": "npm run isDist && npm run main"
+    "over": "git add . && git commit -m 'zjs-cli' && git push && npm publish"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -22,9 +18,10 @@
     "download-git-repo": "^2.0.0",
     "inquirer": "^7.0.0",
     "ora": "^4.0.2"
-  }, 
+  },
   "bin": {
-    "zjs-cli": "main.js"
+    "zjs-cli": "main.js",
+    "zjs-a": "main.js"
   },
   "author": "周靖松",
   "license": "ISC"
